@@ -1,12 +1,15 @@
 {
-  "name": "jchef",
+  "name": "static-netlify",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "app.js",
   "scripts": {
     "dev": "parcel index.html",
     "build": "parcel build index.html"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
 }
